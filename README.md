@@ -1,37 +1,41 @@
-# Abvss Car Catalog
-
-## Description 
-
-ABVSS Car Catalog is a web application that allows users to explore a diverse collection of cars. It offers a user-friendly interface, showcasing detailed car information and captivating images. Built using React and Fetch API, the app ensures real-time data and seamless navigation. From car enthusiasts to potential buyers, it caters to all users interested in the automotive world.
-
-#### Use Story.
-
-1. The web allows user to see various types of brands of cars.
-
-2.The web allows user to see various types of cars.
-
-3. User can click on the car and see more info on the car.
-
-4. User can navigate back to see other categories of cars .
+# ABVSS Car Catalog
 
 
-## Procedure  
 
-1. Clone this repo https://github.com/abvss13/abvss-car-catalog.git 
+## Description
 
-`git clone https://github.com/abvss13/abvss-car-catalog.git`
+ABVSS Car Catalog is a user-friendly web application that allows car enthusiasts and potential buyers to explore a diverse collection of cars. With its sleek interface and captivating images, users can browse through various car brands and models, accessing detailed information on each car.
 
-2. `npm install`
- 
- 3. `cd car-catalog`
+## Features
 
- 4. `npm start`
+- Browse a wide range of car brands and models.
+- Click on a car to view more detailed information.
+- Seamlessly navigate back to explore other categories of cars.
 
- ## Project Owner
+## Technologies Used
 
- ### Name: Abdullahi Abass
+- React: Front-end JavaScript library for building user interfaces.
+- Fetch API: To fetch real-time data from an external source.
+- HTML/CSS: To structure and style the user interface.
 
- ### Telephone : +254798491946
+## Getting Started
 
- ### Gmail: abdulabass1738@gmail.com
+1. Clone the repository:
 
+git clone `https://github.com/abvss13/abvss-car-catalog.git`
+
+2. Install dependencies:Copy code `npm install`
+
+
+3. Navigate to the project directory: Copy code `cd car-catalog`
+
+4. Start the application: Copy code `npm start`
+
+
+## Project Owner
+
+Name: Abdullahi Abass
+Telephone: +254798491946
+Email: abdulabass1738@gmail.com
+
+For inquiries and contributions, feel free to contact the project owner. Experience the thrill of car exploration with ABVSS Car Catalog!
