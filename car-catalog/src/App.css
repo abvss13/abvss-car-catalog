@@ -1,0 +1,159 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for the entire app */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #b8c7d1e1;
+  color: #333;
+}
+
+/* Styles for Navbar */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-logo {
+  flex: 1;
+}
+
+.nav-logo h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+/* Styles for CarCatalog */
+.car-catalog {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.catalog-title {
+  margin-top: 0;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+/* Styles for CarCard */
+.car-card {
+  cursor: pointer;
+  border: 1px solid #106186;
+  padding: 2rem;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  background-color: #fff;
+}
+
+.car-card:hover {
+  box-shadow: 0 12px 24px rgba(91, 240, 141, 0.925);
+  transform: scale(1.05);
+}
+
+.car-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(158, 131, 235, 0.911);
+}
+
+.car-details h2,
+.car-details h3,
+.car-details p {
+  margin: 0;
+}
+
+/* Styles for CarDetail */
+.car-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #eb9a9a;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.back-button {
+  background-color: #c43131;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.back-button:hover {
+  opacity: 0.8;
+}
+
+.car-brand {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #333;
+  background-color: rgb(15, 199, 231);
+}
+
+.car-model {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #888;
+  background-color: rgb(15, 199, 231);
+}
+
+.car-info {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #555;
+  background-color: rgb(15, 199, 231);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .car-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .catalog-title {
+    font-size: 2.5rem;
+  }
+}
