@@ -106,7 +106,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
-  background-color: #eb9a9a;
+  background-color: #c2dad6;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
@@ -130,14 +130,14 @@ body {
   margin: 0;
   font-size: 2.5rem;
   color: #333;
-  background-color: rgb(15, 199, 231);
+  background-color: rgb(192, 247, 239);
 }
 
 .car-model {
   margin: 0;
   font-size: 1.8rem;
   color: #888;
-  background-color: rgb(15, 199, 231);
+  background-color: rgb(147, 238, 167);
 }
 
 .car-info {
