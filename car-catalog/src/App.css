@@ -8,14 +8,17 @@
 /* Styles for the entire app */
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #080f0ae1;
+  background-color: #57645be1;
   color: #7bc4c4;
 }
-
+h1-hover {
+  background-color: ;
+}
 h1 {
   background-color: #888;
   color: #fff;
   padding: 1rem;
+  box-shadow: rgb(19, 216, 216);
   text-align: center;
   font-size: 3rem;
   text-transform: uppercase;

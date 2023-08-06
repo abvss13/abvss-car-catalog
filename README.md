@@ -4,7 +4,7 @@
 
 ## Description
 
-ABVSS Car Catalog is a user-friendly web application that allows car enthusiasts and potential buyers to explore a diverse collection of cars. With its sleek interface and captivating images, users can browse through various car brands and models, accessing detailed information on each car.
+ABVSS Car Catalog is a user-friendly web application that allows car enthusiasts and potential buyers to explore a diverse collection of cars. With its sleek interface and captivating images, users can browse through various car brands and models,shuffle and see differrent variety of cars, user can also click on the open button to like or dislike , comment and share on the car, it also enables users to access detailed information on each car.
 
 ## Features
 
