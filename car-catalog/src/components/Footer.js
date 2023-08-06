@@ -11,6 +11,12 @@ const Navbar = () => {
         <li>
           <a href="/" className="nav-link">Home</a>
         </li>
+        <li>
+          <a href="/about" className="nav-link">About</a>
+        </li>
+        <li>
+          <a href="/contact" className="nav-link">Contact</a>
+        </li>
         {/* Add other navigation links here */}
       </ul>
     </nav>
