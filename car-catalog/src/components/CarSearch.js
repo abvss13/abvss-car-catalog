@@ -8,7 +8,7 @@ const HomePage = () => {
   const [filteredCars, setFilteredCars] = useState([]);
 
   useEffect(() => {
-    axios.get('/data/db.json').then((response) => {
+    axios.get('https://api.npoint.io/6b49fadc38eab9e79911').then((response) => {
       setCars(response.data.cars);
       setFilteredCars(response.data.cars);
     });

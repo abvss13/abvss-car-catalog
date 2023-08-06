@@ -1,39 +1,46 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import CarCard from './CarCard';
+import CarSearch from './CarSearch';
+import CarSort from './CarSort';
 
 const HomePage = () => {
   const [cars, setCars] = useState([]);
   const [filteredCars, setFilteredCars] = useState([]);
-  const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    axios.get('/data/db.json').then((response) => {
+    axios.get('https://api.npoint.io/6b49fadc38eab9e79911').then((response) => {
       setCars(response.data.cars);
       setFilteredCars(response.data.cars);
     });
   }, []);
 
-  useEffect(() => {
-    // Filter cars based on the search term when the searchTerm state changes
-    const filteredCars = cars.filter(
-      (car) =>
-        car.brand.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        car.model.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    setFilteredCars(filteredCars);
-  }, [searchTerm, cars]);
+  const handleSort = (criteria) => {
+    let sortedCars = [...filteredCars];
+    switch (criteria) {
+      case 'priceAsc':
+        sortedCars.sort((a, b) => a.price - b.price);
+        break;
+      case 'priceDesc':
+        sortedCars.sort((a, b) => b.price - a.price);
+        break;
+      case 'brand':
+        sortedCars.sort((a, b) => a.brand.localeCompare(b.brand));
+        break;
+      case 'model':
+        sortedCars.sort((a, b) => a.model.localeCompare(b.model));
+        break;
+      default:
+        // Do nothing if "None" option is selected
+        break;
+    }
+    setFilteredCars(sortedCars);
+  };
 
   return (
     <div>
-      <div className="car-search">
-        <input
-          type="text"
-          placeholder="Search by Brand or Model"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
-      </div>
+      <CarSearch cars={cars} setFilteredCars={setFilteredCars} />
+      <CarSort onSort={handleSort} />
       <div className="car-catalog">
         {filteredCars.map((car) => (
           <CarCard key={car.model} car={car} />
