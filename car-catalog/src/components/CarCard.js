@@ -5,6 +5,7 @@ const CarCard = ({ car, onSelect }) => {
   const [dislikes, setDislikes] = useState(0);
   const [comments, setComments] = useState([]);
   const [newComment, setNewComment] = useState('');
+  const [isCarOpen, setIsCarOpen] = useState(false);
 
   const handleLike = (event) => {
     event.stopPropagation();
@@ -33,10 +34,19 @@ const CarCard = ({ car, onSelect }) => {
     }
   };
 
-  return (
-    <div>
-      <div className="car-card" onClick={onSelect}>
-        <img src={car.img_url} alt={car.model} className="car-image" />
+  const handleOpenCar = (event) => {
+    event.stopPropagation();
+    setIsCarOpen(true);
+  };
+
+  const handleCloseCar = (event) => {
+    event.stopPropagation();
+    setIsCarOpen(false);
+  };
+
+  const renderCarDetails = () => {
+    if (isCarOpen) {
+      return (
         <div className="car-details">
           <h2>{car.brand}</h2>
           <h3>{car.model}</h3>
@@ -51,28 +61,48 @@ const CarCard = ({ car, onSelect }) => {
             <button className="share-button" onClick={handleShare}>
               Share
             </button>
+            <button className="close-button" onClick={handleCloseCar}>
+              Close
+            </button>
           </div>
         </div>
-      </div>
-      <div className="comment-section">
-        <h4>Comments:</h4>
-        {comments.map((comment, index) => (
-          <p key={index}>{comment}</p>
-        ))}
-        <form onSubmit={handleSubmitComment}>
-          <textarea
-            rows="4"
-            cols="50"
-            value={newComment}
-            onChange={handleCommentChange}
-            placeholder="Enter your comment..."
-            className="comment-input"
-          />
-          <button type="submit" className="submit-button">
-            Submit
+      );
+    } else {
+      return (
+        <div className="car-details">
+          <button className="open-button" onClick={handleOpenCar}>
+            Open
           </button>
-        </form>
-      </div>
+        </div>
+      );
+    }
+  };
+
+  return (
+    <div className="car-card" onClick={onSelect}>
+      <img src={car.img_url} alt={car.model} className="car-image" />
+      {renderCarDetails()}
+      {isCarOpen && (
+        <div className="comment-section">
+          <h4>Comments:</h4>
+          {comments.map((comment, index) => (
+            <p key={index}>{comment}</p>
+          ))}
+          <form onSubmit={handleSubmitComment}>
+            <textarea
+              rows="4"
+              cols="50"
+              value={newComment}
+              onChange={handleCommentChange}
+              placeholder="Enter your comment..."
+              className="comment-input"
+            />
+            <button type="submit" className="submit-button">
+              Submit
+            </button>
+          </form>
+        </div>
+      )}
     </div>
   );
 };

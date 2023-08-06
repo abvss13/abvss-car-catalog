@@ -5,7 +5,7 @@ const CarCatalog = ({ cars, onCarSelect, onShuffleCars }) => {
   return (
     <div className="car-catalog">
       <h1 className="catalog-title">ABVSS Car Catalog</h1>
-      <h2>Click on the image to see more info about the car and use the shuffle button above to shuffle the cars </h2>
+      <h2>These are the most famous cars belonging to Abvss car showroom.</h2>
       {/* Add the Shuffle Cars button */}
       <button className="shuffle-button" onClick={onShuffleCars}>
         Shuffle Cars
