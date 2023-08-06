@@ -326,3 +326,21 @@ input:checked + .slider:before {
 .dislike-button.disliked {
   background-color: #ff0000;
 }
+
+.share-button {
+  background-color: #bbaba2;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+  margin-top: 1rem;
+}
+
+.share-button:hover {
+  background-color: #83dad5;
+  opacity: 0.8;
+}
