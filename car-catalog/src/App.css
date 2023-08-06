@@ -276,3 +276,27 @@ input:checked + .slider:before {
   opacity: 0.8;
   background-color: #1bc4c4;
 }
+
+
+
+.like-button {
+  background-color: #51776f;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+  margin-top: 1rem;
+}
+
+.like-button.liked {
+  background-color: #2196f3;
+}
+
+.like-button:hover {
+  background-color: #43c41b;
+  opacity: 0.8;
+}
