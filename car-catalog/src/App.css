@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,16 +7,27 @@
 /* Styles for the entire app */
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #7cb6dde1;
-  color: #333;
+  background-color: #080f0ae1;
+  color: #7bc4c4;
 }
 
 h1 {
   background-color: #888;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  font-size: 3rem; /* Updated font size */
+  text-transform: uppercase; /* Uppercase text */
 }
- h2 {
-  background-color: #555;
- }
+
+h2 {
+  background-color: #584545;
+  color: #fff;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 2rem; /* Updated font size */
+}
+
 /* Styles for Navbar */
 .navbar {
   background-color: #333;
@@ -85,7 +95,7 @@ h1 {
   padding: 2rem;
   border-radius: 10px;
   transition: box-shadow 0.2s ease, transform 0.2s ease;
-  background-color: #fff;
+  background-color: #a17171;
 }
 
 .car-card:hover {
@@ -98,7 +108,7 @@ h1 {
   height: 200px;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 6px 12px rgba(85, 104, 212, 0.911);
+  box-shadow: 0 6px 12px rgba(97, 7, 74, 0.911);
 }
 
 .car-details h2,
@@ -113,7 +123,7 @@ h1 {
   margin: 0 auto;
   padding: 2rem;
   background-color: #c2dad6;
-  box-shadow: 0 4px 10px rgba(112, 213, 226, 0.877);
+  box-shadow: 0 4px 10px rgba(186, 203, 206, 0.877);
   border-radius: 10px;
   transition: opacity 0.2s ease;
 }
@@ -130,6 +140,7 @@ h1 {
 }
 
 .back-button:hover {
+  background-color: #43c41b;
   opacity: 0.8;
 }
 
@@ -144,7 +155,7 @@ h1 {
   margin: 0;
   font-size: 1.8rem;
   color: #888;
-  background-color: rgb(147, 238, 167);
+  background-color: rgb(213, 253, 221);
 }
 
 .car-info {
@@ -176,9 +187,7 @@ h1 {
   }
 }
 
-/* App.css */
-/* ... (existing styles) */
-
+/* Dark Mode Toggle Styles */
 .dark-mode-toggle {
   display: flex;
   align-items: center;
@@ -206,7 +215,7 @@ h1 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #51776f;
   transition: 0.4s;
   border-radius: 20px;
 }
@@ -218,7 +227,7 @@ h1 {
   width: 16px;
   left: 2px;
   bottom: 2px;
-  background-color: white;
+  background-color: rgb(98, 138, 128);
   transition: 0.4s;
   border-radius: 50%;
 }
@@ -243,8 +252,26 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-
-
+/* Dark Mode Styles */
 .dark-mode {
   background-color: black;
+  color: #fff;
+}
+
+/* Shuffle Cars Button Styles */
+.shuffle-button {
+  background-color: #1b1394;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.shuffle-button:hover {
+  opacity: 0.8;
+  background-color: #1bc4c4;
 }
