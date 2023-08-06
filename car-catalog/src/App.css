@@ -278,8 +278,9 @@ input:checked + .slider:before {
 }
 
 
-
-.like-button {
+.like-button,
+.dislike-button,
+.share-button {
   background-color: #51776f;
   color: #fff;
   border: none;
@@ -296,26 +297,10 @@ input:checked + .slider:before {
   background-color: #2196f3;
 }
 
-.like-button:hover {
+.like-button:hover,
+.dislike-button:hover,
+.share-button:hover {
   background-color: #540dc7;
-  opacity: 0.8;
-}
-
-.like-button, .dislike-button {
-  background-color: #51776f;
-  color: #fff;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
-  text-transform: uppercase;
-  transition: background-color 0.2s ease;
-  margin-top: 1rem;
-}
-
-.dislike-button:hover, .dislike-button:hover {
-  background-color: #dfc264;
   opacity: 0.8;
 }
 
@@ -329,20 +314,10 @@ input:checked + .slider:before {
 
 .share-button {
   background-color: #bbaba2;
-  color: #fff;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
-  text-transform: uppercase;
-  transition: background-color 0.2s ease;
-  margin-top: 1rem;
 }
 
 .share-button:hover {
   background-color: #83dad5;
-  opacity: 0.8;
 }
 
 .comment-section {
@@ -350,11 +325,11 @@ input:checked + .slider:before {
 }
 
 .comment-section h4 {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .comment-section p {
-  margin: 2.5rem 0;
+  margin: 0.5rem 0;
 }
 
 .comment-input {
