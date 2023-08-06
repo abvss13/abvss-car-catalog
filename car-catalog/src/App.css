@@ -297,6 +297,6 @@ input:checked + .slider:before {
 }
 
 .like-button:hover {
-  background-color: #43c41b;
+  background-color: #540dc7;
   opacity: 0.8;
 }
