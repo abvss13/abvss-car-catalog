@@ -14,6 +14,11 @@ const CarCard = ({ car, onSelect }) => {
     setDislikes((prevDislikes) => prevDislikes + 1);
   };
 
+  const handleShare = (event) => {
+    event.stopPropagation(); // Prevent the click event from bubbling up
+    alert('Share button clicked!'); // Replace this with your actual sharing functionality
+  };
+
   return (
     <div className="car-card" onClick={onSelect}>
       <img src={car.img_url} alt={car.model} className="car-image" />
@@ -27,6 +32,9 @@ const CarCard = ({ car, onSelect }) => {
           </button>
           <button className="dislike-button" onClick={handleDislike}>
             Dislike ({dislikes})
+          </button>
+          <button className="share-button" onClick={handleShare}>
+            Share
           </button>
         </div>
       </div>
