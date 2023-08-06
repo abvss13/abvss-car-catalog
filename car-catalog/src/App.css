@@ -300,3 +300,29 @@ input:checked + .slider:before {
   background-color: #540dc7;
   opacity: 0.8;
 }
+
+.like-button, .dislike-button {
+  background-color: #51776f;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+  margin-top: 1rem;
+}
+
+.dislike-button:hover, .dislike-button:hover {
+  background-color: #dfc264;
+  opacity: 0.8;
+}
+
+.dislike-button {
+  background-color: #d64949;
+}
+
+.dislike-button.disliked {
+  background-color: #ff0000;
+}
