@@ -1,488 +1,453 @@
 {
     "cars": [
-    {
-    "type": "SUV",
-    "brand": "Toyota",
-    "model": "Toyata Land Cruiser V8",
-    "price": "KES 10,000,000",
-    "img_url": "https://shorturl.at/hOQZ3",
-    "engine_type": "V8",
-    "acceleration": "0-100 km/h in 7.5 seconds",
-    "release_date": "2020-01-01",
-    "maximum_speed": "200 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Toyota",
-    "model": "Toyota Harrier",
-    "price": "KES 5,500,000",
-    "img_url": "https://shorturl.at/ehiGR",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 8.2 seconds",
-    "release_date": "2019-06-15",
-    "maximum_speed": "180 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Toyota",
-    "model": "Toyota Land Cruiser TX",
-    "price": "KES 7,800,000",
-    "img_url": "https://shorturl.at/hBLR5",
-    "engine_type": "V6",
-    "acceleration": "0-100 km/h in 9.0 seconds",
-    "release_date": "2020-09-20",
-    "maximum_speed": "190 km/h"
-    },
-    {
-    "type": "Sedan",
-    "brand": "Toyota",
-    "model": "Toyota Corolla",
-    "price": "KES 3,200,000",
-    "img_url": "https://rb.gy/kg4e0",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 8.5 seconds",
-    "release_date": "2021-03-10",
-    "maximum_speed": "180 km/h"
-    },
-    {
-    "type": "Sedan",
-    "brand": "Toyota",
-    "model": "Toyota Camry",
-    "price": "KES 4,000,000",
-    "img_url": "https://rb.gy/mbo4m",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 8.0 seconds",
-    "release_date": "2020-07-05",
-    "maximum_speed": "190 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Toyota",
-    "model": "Toyota RAV4",
-    "price": "KES 3,800,000",
-    "img_url": "https://rb.gy/knemd",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 8.8 seconds",
-    "release_date": "2019-11-30",
-    "maximum_speed": "185 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Toyota",
-    "model": "Toyota Highlander",
-    "price": "KES 4,500,000",
-    "img_url": "https://rb.gy/0ney5",
-    "engine_type": "V6",
-    "acceleration": "0-100 km/h in 7.9 seconds",
-    "release_date": "2020-05-25",
-    "maximum_speed": "195 km/h"
-    },
-    {
-    "type": "Truck",
-    "brand": "Toyota",
-    "model": "Toyota Tacoma",
-    "price": "KES 3,600,000",
-    "img_url": "https://shorturl.at/gPW57",
-    "engine_type": "V6",
-    "acceleration": "0-100 km/h in 9.5 seconds",
-    "release_date": "2019-08-18",
-    "maximum_speed": "180 km/h"
-    },
-    {
-    "type": "Sedan",
-    "brand": "BMW",
-    "model": "BMW 3 Series",
-    "price": "KES 5,000,000",
-    "img_url": "https://shorturl.at/fjquB",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 6.7 seconds",
-    "release_date": "2021-02-20",
-    "maximum_speed": "220 km/h"
-    },
-    {
-    "type": "Sedan",
-    "brand": "BMW",
-    "model": "BMW 5 Series",
-    "price": "KES 6,800,000",
-    "img_url": "https://shorturl.at/aqyX8",
-    "engine_type": "6-cylinder",
-    "acceleration": "0-100 km/h in 5.9 seconds",
-    "release_date": "2020-11-12",
-    "maximum_speed": "230 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "BMW",
-    "model": "BMW X3",
-    "price": "KES 5,200,000",
-    "img_url": "https://shorturl.at/aghBK",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 7.3 seconds",
-    "release_date": "2020-09-01",
-    "maximum_speed": "210 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "BMW",
-    "model": "BMW X5",
-    "price": "KES 7,000,000",
-    "img_url": "https://shorturl.at/aeoAS",
-    "engine_type": "6-cylinder",
-    "acceleration": "0-100 km/h in 6.4 seconds",
-    "release_date": "2019-12-05",
-    "maximum_speed": "230 km/h"
-    },
-    {
-    "type": "Sedan",
-    "brand": "BMW",
-    "model": "BMW 7 Series",
-    "price": "KES 9,500,000",
-    "img_url": "https://shorturl.at/iCEP6",
-    "engine_type": "V8",
-    "acceleration": "0-100 km/h in 5.2 seconds",
-    "release_date": "2021-05-15",
-    "maximum_speed": "250 km/h"
-    },
-    {
-    "type": "Sedan",
-    "brand": "Mercedes-Benz",
-    "model": "Mercedes-Benz C-Class",
-    "price": "KES 4,800,000",
-    "img_url": "https://shorturl.at/ajGUY",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 7.8 seconds",
-    "release_date": "2021-04-10",
-    "maximum_speed": "210 km/h"
-    },
-    {
-    "type": "Sedan",
-    "brand": "Mercedes-Benz",
-    "model": "Mercedes-Benz E-Class",
-    "price": "KES 6,200,000",
-    "img_url": "https://shorturl.at/dtxB7",
-    "engine_type": "6-cylinder",
-    "acceleration": "0-100 km/h in 6.2 seconds",
-    "release_date": "2020-10-20",
-    "maximum_speed": "230 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Mercedes-Benz",
-    "model": "Mercedes-Benz GLC",
-    "price": "KES 5,500,000",
-    "img_url": "https://shorturl.at/apsD0",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 7.5 seconds",
-    "release_date": "2020-11-30",
-    "maximum_speed": "220 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Mercedes-Benz",
-    "model": "Mercedes-Benz G63",
-    "price": "KES 15,000,000",
-    "img_url": "https://shorturl.at/dekwK",
-    "engine_type": "V8",
-    "acceleration": "0-100 km/h in 5.0 seconds",
-    "release_date": "2019-05-12",
-    "maximum_speed": "250 km/h"
-    },
-    {
-    "type": "Sedan",
-    "brand": "Mercedes-Benz",
-    "model": "Mercedes-Benz S-Class",
-    "price": "KES 12,000,000",
-    "img_url": "https://shorturl.at/ijuzC",
-    "engine_type": "V12",
-    "acceleration": "0-100 km/h in 4.8 seconds",
-    "release_date": "2021-08-25",
-    "maximum_speed": "280 km/h"
-    },
-    {
-    "type": "Sports Car",
-    "brand": "Porsche",
-    "model": "Porsche 911",
-    "price": "KES 10,000,000",
-    "img_url": "https://shorturl.at/now68",
-    "engine_type": "6-cylinder",
-    "acceleration": "0-100 km/h in 4.0 seconds",
-    "release_date": "2021-06-02",
-    "maximum_speed": "290 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Porsche",
-    "model": "Porsche Cayenne",
-    "price": "KES 8,500,000",
-    "img_url": "https://shorturl.at/blGKR",
-    "engine_type": "V6",
-    "acceleration": "0-100 km/h in 5.7 seconds",
-    "release_date": "2020-09-20",
-    "maximum_speed": "260 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Porsche",
-    "model": "Porsche Macan",
-    "price": "KES 7,200,000",
-    "img_url": "https://shorturl.at/beh56",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 6.9 seconds",
-    "release_date": "2020-04-15",
-    "maximum_speed": "240 km/h"
-    },
-    {
-    "type": "Sedan",
-    "brand": "Porsche",
-    "model": "Porsche Panamera",
-    "price": "KES 9,800,000",
-    "img_url": "https://shorturl.at/qwzAC",
-    "engine_type": "V8",
-    "acceleration": "0-100 km/h in 4.5 seconds",
-    "release_date": "2021-01-10",
-    "maximum_speed": "280 km/h"
-    },
-    {
-    "type": "Electric Car",
-    "brand": "Porsche",
-    "model": "Porsche Taycan",
-    "price": "KES 11,500,000",
-    "img_url": "https://shorturl.at/y0138",
-    "engine_type": "Electric",
-    "acceleration": "0-100 km/h in 3.8 seconds",
-    "release_date": "2021-11-30",
-    "maximum_speed": "250 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Subaru",
-    "model": "Subaru Outback",
-    "price": "KES 3,500,000",
-    "img_url": "https://shorturl.at/lnKO5",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 8.0 seconds",
-    "release_date": "2020-03-18",
-    "maximum_speed": "200 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Subaru",
-    "model": "Subaru Forester",
-    "price": "KES 3,300,000",
-    "img_url": "https://shorturl.at/kHIR6",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 8.5 seconds",
-    "release_date": "2019-07-10",
-    "maximum_speed": "190 km/h"
-    },
-    {
-    "type": "Hatchback/Sedan",
-    "brand": "Subaru",
-    "model": "Subaru Impreza",
-    "price": "KES 2,800,000",
-    "img_url": "https://shorturl.at/sG179",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 8.7 seconds",
-    "release_date": "2021-09-05",
-    "maximum_speed": "195 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Subaru",
-    "model": "Subaru Crosstrek",
-    "price": "KES 3,400,000",
-    "img_url": "https://shorturl.at/xyMT5",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 9.2 seconds",
-    "release_date": "2020-08-22",
-    "maximum_speed": "200 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Subaru",
-    "model": "Subaru Ascent",
-    "price": "KES 4,200,000",
-    "img_url": "https://shorturl.at/dtHIJ",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 9.8 seconds",
-    "release_date": "2019-12-01",
-    "maximum_speed": "210 km/h"
-    },
-    {
-    "type": "Sedan",
-    "brand": "Audi",
-    "model": "Audi A4",
-    "price": "KES 4,600,000",
-    "img_url": "https://shorturl.at/ceiS5",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 7.2 seconds",
-    "release_date": "2021-03-28",
-    "maximum_speed": "220 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Audi",
-    "model": "Audi Q5",
-    "price": "KES 5,000,000",
-    "img_url": "https://shorturl.at/gpAOY",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 7.0 seconds",
-    "release_date": "2020-09-15",
-    "maximum_speed": "225 km/h"
-    },
-    {
-    "type": "Sedan",
-    "brand": "Audi",
-    "model": "Audi A3",
-    "price": "KES 3,800,000",
-    "img_url": "https://shorturl.at/ADQSZ",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 7.5 seconds",
-    "release_date": "2021-01-05",
-    "maximum_speed": "210 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Audi",
-    "model": "Audi Q3",
-    "price": "KES 4,200,000",
-    "img_url": "https://shorturl.at/xLPSY",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 7.8 seconds",
-    "release_date": "2020-06-20",
-    "maximum_speed": "215 km/h"
-    },
-    {
-    "type": "Sedan",
-    "brand": "Audi",
-    "model": "Audi A6",
-    "price": "KES 5,500,000",
-    "img_url": "https://shorturl.at/moAEI",
-    "engine_type": "6-cylinder",
-    "acceleration": "0-100 km/h in 6.5 seconds",
-    "release_date": "2019-11-10",
-    "maximum_speed": "230 km/h"
-    },
-    {
-    "type": "Truck",
-    "brand": "Chevrolet",
-    "model": "Chevrolet Silverado",
-    "price": "KES 6,000,000",
-    "img_url": "https://shorturl.at/qrwCI",
-    "engine_type": "V8",
-    "acceleration": "0-100 km/h in 8.9 seconds",
-    "release_date": "2020-08-05",
-    "maximum_speed": "200 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Chevrolet",
-    "model": "Chevrolet Equinox",
-    "price": "KES 4,800,000",
-    "img_url": "https://shorturl.at/sABDM",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 9.5 seconds",
-    "release_date": "2020-06-10",
-    "maximum_speed": "190 km/h"
-    },
-    {
-    "type": "Sedan",
-    "brand": "Chevrolet",
-    "model": "Chevrolet Malibu",
-    "price": "KES 4,500,000",
-    "img_url": "https://shorturl.at/iNPSU",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 8.7 seconds",
-    "release_date": "2021-02-15",
-    "maximum_speed": "200 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Chevrolet",
-    "model": "Chevrolet Traverse",
-    "price": "KES 5,300,000",
-    "img_url": "https://shorturl.at/jrIJ0",
-    "engine_type": "V6",
-    "acceleration": "0-100 km/h in 7.8 seconds",
-    "release_date": "2020-09-30",
-    "maximum_speed": "210 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Chevrolet",
-    "model": "Chevrolet Tahoe",
-    "price": "KES 7,800,000",
-    "img_url": "https://shorturl.at/uGLPZ",
-    "engine_type": "V8",
-    "acceleration": "0-100 km/h in 6.9 seconds",
-    "release_date": "2019-12-18",
-    "maximum_speed": "230 km/h"
-    },
-    {
-    "type": "Sports Car",
-    "brand": "Chevrolet",
-    "model": "Chevrolet Camaro",
-    "price": "KES 9,000,000",
-    "img_url": "https://shorturl.at/lnLX5",
-    "engine_type": "V8",
-    "acceleration": "0-100 km/h in 5.0 seconds",
-    "release_date": "2021-07-12",
-    "maximum_speed": "280 km/h"
-    },
-    {
-    "type": "Truck",
-    "brand": "Ford",
-    "model": "Ford F-150",
-    "price": "KES 6,500,000",
-    "img_url": "https://shorturl.at/IMSU7",
-    "engine_type": "V8",
-    "acceleration": "0-100 km/h in 8.5 seconds",
-    "release_date": "2020-05-01",
-    "maximum_speed": "190 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Ford",
-    "model": "Ford Escape",
-    "price": "KES 4,000,000",
-    "img_url": "https://shorturl.at/cpvxE",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 8.9 seconds",
-    "release_date": "2020-02-28",
-    "maximum_speed": "200 km/h"
-    },
-    {
-    "type": "SUV",
-    "brand": "Ford",
-    "model": "Ford Explorer",
-    "price": "KES 5,800,000",
-    "img_url": "https://shorturl.at/bjC38",
-    "engine_type": "V6",
-    "acceleration": "0-100 km/h in 7.2 seconds",
-    "release_date": "2019-09-15",
-    "maximum_speed": "220 km/h"
-    },
-    {
-    "type": "Hatchback/Sedan",
-    "brand": "Ford",
-    "model": "Ford Focus",
-    "price": "KES 3,500,000",
-    "img_url": "https://shorturl.at/mnpS2",
-    "engine_type": "4-cylinder",
-    "acceleration": "0-100 km/h in 8.4 seconds",
-    "release_date": "2021-04-20",
-    "maximum_speed": "190 km/h"
-    },
-    {
-    "type": "Sports Car",
-    "brand": "Ford",
-    "model": "Ford Mustang",
-    "price": "KES 7,200,000",
-    "img_url": "https://shorturl.at/boDRV",
-    "engine_type": "V8",
-    "acceleration": "0-100 km/h in 5.6 seconds",
-    "release_date": "2020-11-30",
-    "maximum_speed": "250 km/h"
-    }
-    ]
-    }
+      {
+        "brand": "BMW",
+        "model": "BMW 3 Series",
+        "imagePath": "https://i.pinimg.com/236x/36/95/64/3695647dab088666f6cd258f5644678c.jpg",
+        "engineType": "2.0L Inline 4-Cylinder",
+        "price": "4,100,000 Ksh"
+      },
+      {
+        "brand": "BMW",
+        "model": "BMW 5 Series",
+        "imagePath": "https://i.pinimg.com/236x/36/95/64/3695647dab088666f6cd258f5644678c.jpg",
+        "engineType": "3.0L Inline 6-Cylinder",
+        "price": "5,450,000 Ksh"
+      },
+      {
+        "brand": "BMW",
+        "model": "BMW 7 Series",
+        "imagePath": "https://i.pinimg.com/236x/ae/a8/55/aea855a74dffbbb4206721f8ee8a29f7.jpg",
+        "engineType": "4.4L V8 Twin Turbo",
+        "price": "8,680,000 Ksh"
+      },
+      {
+        "brand": "BMW",
+        "model": "BMW M5",
+        "imagePath": "https://i.pinimg.com/236x/29/80/dd/2980dd7a3dd1d15556fd5ec290dafe7a.jpg",
+        "engineType": "4.4L V8 Twin Turbo",
+        "price": "10,270,000 Ksh"
+      },
+      {
+        "brand": "BMW",
+        "model": "BMW X3",
+        "imagePath": "images/BMW/BMW X3.jpeg",
+        "engineType": "2.0L Inline 4-Cylinder",
+        "price": "4,300,000 Ksh"
+      },
+      {
+        "brand": "BMW",
+        "model": "BMW X5",
+        "imagePath": "https://i.pinimg.com/236x/88/e8/31/88e8319afb0270868e242c0aafc65c93.jpg",
+        "engineType": "3.0L Inline 6-Cylinder",
+        "price": "5,940,000 Ksh"
+      },
+      {
+        "brand": "BMW",
+        "model": "BMW X7",
+        "imagePath": "https://i.pinimg.com/236x/e0/b1/0b/e0b10b7dbf82f1ae8a18d6ad28ec6fff.jpg",
+        "engineType": "4.4L V8 Twin Turbo",
+        "price": "7,490,000 Ksh"
+      },
+      {
+        "brand": "BMW",
+        "model": "BMW Z4",
+        "imagePath": "https://i.pinimg.com/564x/7f/78/ae/7f78ae5e84c469c1465020180d980dfc.jpg",
+        "engineType": "2.0L Inline 4-Cylinder",
+        "price": "4,970,000 Ksh"
+      },
+      {
+        "brand": "BMW",
+        "model": "BMW i3",
+        "imagePath": "https://i.pinimg.com/564x/7f/78/ae/7f78ae5e84c469c1465020180d980dfc.jpg",
+        "engineType": "Electric",
+        "price": "4,445,000 Ksh"
+      },
+      {
+        "brand": "BMW",
+        "model": "BMW i8",
+        "imagePath": "https://i.pinimg.com/236x/e8/2e/6c/e82e6cea85a43d3c14719bdd27ff28c6.jpg",
+        "engineType": "1.5L 3-Cylinder Plug-In Hybrid",
+        "price": "14,750,000 Ksh"
+      },
+      {
+        "brand": "Cadillac",
+        "model": "Cadillac ATS",
+        "imagePath": "https://i.pinimg.com/236x/1e/98/88/1e9888b60577da0a893b347fae6c4d70.jpg",
+        "engineType": "2.0L Turbocharged Inline-4",
+        "price": "4,800,000 Ksh"
+      },
+      {
+        "brand": "Cadillac",
+        "model": "Cadillac CT6",
+        "imagePath": "https://i.pinimg.com/236x/00/47/3f/00473ff189e911a4d519c2c6071472e4.jpg",
+        "engineType": "3.6L V6",
+        "price": "6,500,000 Ksh"
+      },
+      {
+        "brand": "Cadillac",
+        "model": "Cadillac CTS",
+        "imagePath": "https://i.pinimg.com/236x/36/91/3c/36913c4d8874cffd5f1d3d916b173246.jpg",
+        "engineType": "2.0L Turbocharged Inline-4",
+        "price": "5,200,000 Ksh"
+      },
+      {
+        "brand": "Cadillac",
+        "model": "Cadillac ELR",
+        "imagePath": "https://i.pinimg.com/236x/df/dd/a1/dfdda13a92eff104bcdf3e64446f263c.jpg",
+        "engineType": "1.4L I4 Gas/Electric Hybrid",
+        "price": "4,700,000 Ksh"
+      },
+      {
+        "brand": "Cadillac",
+        "model": "Cadillac Escalade",
+        "imagePath": "https://i.pinimg.com/236x/e1/50/d2/e150d2759a450d62067f4e70aa500549.jpg",
+        "engineType": "6.2L V8",
+        "price": "12,300,000 Ksh"
+      },
+      {
+        "brand": "Cadillac",
+        "model": "Cadillac XT4",
+        "imagePath": "https://i.pinimg.com/236x/da/24/b6/da24b6eddefc13606851fa0d31192762.jpg",
+        "engineType": "2.0L Turbocharged Inline-4",
+        "price": "4,600,000 Ksh"
+      },
+      {
+        "brand": "Cadillac",
+        "model": "Cadillac XT5",
+        "imagePath": "https://i.pinimg.com/236x/07/1f/04/071f049e5965118708ca7e4e6bae6fbc.jpg",
+        "engineType": "3.6L V6",
+        "price": "5,800,000 Ksh"
+      },
+      {
+        "brand": "Cadillac",
+        "model": "Cadillac XT6",
+        "imagePath": "https://i.pinimg.com/236x/c3/44/a5/c344a5f14ba445b3b112c815a4a0d5dc.jpg",
+        "engineType": "3.6L V6",
+        "price": "6,200,000 Ksh"
+      },
+      {
+        "brand": "Cadillac",
+        "model": "Cadillac XTS",
+        "imagePath": "https://i.pinimg.com/236x/36/91/3c/36913c4d8874cffd5f1d3d916b173246.jpg",
+        "engineType": "3.6L V6",
+        "price": "5,500,000 Ksh"
+      },
+      {
+        "brand": "Chevrolet",
+        "model": "Chevrolet Blazer",
+        "imagePath": "https://i.pinimg.com/236x/ee/41/86/ee4186a7c5021a30ffb6298db296d2d9.jpg",
+        "engineType": "2.5L 4-Cylinder",
+        "price": "3,600,000 Ksh"
+      },
+      {
+        "brand": "Chevrolet",
+        "model": "Chevrolet Camaro",
+        "imagePath": "https://i.pinimg.com/236x/2f/f5/ad/2ff5ad0acb37c98d03fd7d2471fd81fe.jpg",
+        "engineType": "6.2L V8",
+        "price": "6,800,000 Ksh"
+      },
+      {
+        "brand": "Chevrolet",
+        "model": "Chevrolet Colorado",
+        "imagePath": "https://i.pinimg.com/236x/90/f8/0a/90f80a2ae4606c1a778832bc69826658.jpg",
+        "engineType": "2.5L 4-Cylinder",
+        "price": "4,200,000 Ksh"
+      },
+      {
+        "brand": "Chevrolet",
+        "model": "Chevrolet Equinox",
+        "imagePath": "https://i.pinimg.com/236x/a6/dc/26/a6dc26d480a1d97ed8cca9df9c4da743.jpg",
+        "engineType": "1.5L Turbocharged Inline-4",
+        "price": "3,800,000 Ksh"
+      },
+      {
+        "brand": "Chevrolet",
+        "model": "Chevrolet Impala",
+        "imagePath": "https://i.pinimg.com/236x/48/cd/8a/48cd8a3bc3eeb856eff608998d510e52.jpg",
+        "engineType": "3.6L V6",
+        "price": "4,500,000 Ksh"
+      },
+      {
+        "brand": "Chevrolet",
+        "model": "Chevrolet Malibu",
+        "imagePath": "https://i.pinimg.com/236x/66/d9/ec/66d9ece146068b8cc67da9a0a3c35071.jpg",
+        "engineType": "1.5L Turbocharged Inline-4",
+        "price": "4,000,000 Ksh"
+      },
+      {
+        "brand": "Chevrolet",
+        "model": "Chevrolet Silverado",
+        "imagePath": "https://i.pinimg.com/236x/66/20/07/6620077b74aefe9762d1c856b396ebae.jpg",
+        "engineType": "5.3L V8",
+        "price": "5,800,000 Ksh"
+      },
+      {
+        "brand": "Chevrolet",
+        "model": "Chevrolet Suburban",
+        "imagePath": "https://i.pinimg.com/236x/e8/2d/09/e82d0920c138c6720bd858126a86c27a.jpg",
+        "engineType": "5.3L V8",
+        "price": "8,200,000 Ksh"
+      },
+      {
+        "brand": "Chevrolet",
+        "model": "Chevrolet Traverse",
+        "imagePath": "images/Chevrolet/Chevrolet Traverse.jpeg",
+        "engineType": "3.6L V6",
+        "price": "5,600,000 Ksh"
+      },
+      {
+        "brand": "Chevrolet",
+        "model": "Chevrolet Trax",
+        "imagePath": "https://i.pinimg.com/236x/e0/a1/22/e0a1221114a3df5a8ff8cf61ef530bc2.jpg",
+        "engineType": "1.4L Turbocharged Inline-4",
+        "price": "3,400,000 Ksh"
+      },
+      
+      {
+        "brand": "Jeep",
+        "model": "Jeep Cherokee",
+        "imagePath": "https://i.pinimg.com/236x/15/4c/ab/154cabb2aebfdb9312a5a374e4db4719.jpg",
+        "engineType": "2.4L Tigershark MultiAir 2",
+        "price": "4,200,000 Ksh"
+      },
+      {
+        "brand": "Jeep",
+        "model": "Jeep Commander",
+        "imagePath": "https://i.pinimg.com/236x/b0/78/31/b07831f4dacd3849d8397b78fecb5be2.jpg",
+        "engineType": "3.6L Pentastar V6",
+        "price": "5,800,000 Ksh"
+      },
+      {
+        "brand": "Jeep",
+        "model": "Jeep Compass",
+        "imagePath": "https://i.pinimg.com/236x/b1/52/7b/b1527bdbb0711d59c2cc3265f0acd251.jpg",
+        "engineType": "2.4L Tigershark MultiAir 2",
+        "price": "3,600,000 Ksh"
+      },
+      {
+        "brand": "Jeep",
+        "model": "Jeep Gladiator",
+        "imagePath": "https://i.pinimg.com/236x/41/0f/46/410f4698433ef6a0bf2fe8f3bbdc262a.jpg",
+        "engineType": "3.6L Pentastar V6",
+        "price": "6,500,000 Ksh"
+      },
+      {
+        "brand": "Jeep",
+        "model": "Jeep Grand Cherokee",
+        "imagePath": "images/Jeep/Jeep Grand Cherokee.jpeg",
+        "engineType": "3.6L Pentastar V6",
+        "price": "5,000,000 Ksh"
+      },
+      {
+        "brand": "Jeep",
+        "model": "Jeep Liberty",
+        "imagePath": "images/Jeep/Jeep Liberty.jpeg",
+        "engineType": "3.7L V6",
+        "price": "4,000,000 Ksh"
+      },
+      {
+        "brand": "Jeep",
+        "model": "Jeep Patriot",
+        "imagePath": "https://i.pinimg.com/236x/40/fe/4f/40fe4f38350f83cc9b4567827b363bc0.jpg",
+        "engineType": "2.4L Tigershark MultiAir 2",
+        "price": "3,800,000 Ksh"
+      },
+      {
+        "brand": "Jeep",
+        "model": "Jeep Renegade",
+        "imagePath": "https://i.pinimg.com/236x/83/fd/10/83fd1002f7fb6b17e4fd7dc0f7832042.jpg",
+        "engineType": "2.4L Tigershark MultiAir 2",
+        "price": "3,500,000 Ksh"
+      },
+      {
+        "brand": "Jeep",
+        "model": "Jeep Wagoneer",
+        "imagePath": "https://i.pinimg.com/236x/5e/9c/35/5e9c353390794723d41585b3e74f2328.jpg",
+        "engineType": "5.7L V8",
+        "price": "7,200,000 Ksh"
+      },
+     
+      {
+        "brand": "Mercedes",
+        "model": "Mercedes-Benz A-Class",
+        "imagePath": "https://i.pinimg.com/236x/dc/6e/ce/dc6ece5bb4c89a7cecccab89c01f6ccb.jpg",
+        "engineType": "2.0L Inline-4 Turbo",
+        "price": "5,200,000 Ksh"
+      },
+      {
+        "brand": "Mercedes",
+        "model": "Mercedes-Benz C-Class",
+        "imagePath": "https://i.pinimg.com/236x/f8/b4/30/f8b4302c4ab287b689d5d77ef4a1dcfe.jpg",
+        "engineType": "2.0L Inline-4 Turbo",
+        "price": "6,500,000 Ksh"
+      },
+      {
+        "brand": "Mercedes",
+        "model": "Mercedes-Benz CLA",
+        "imagePath": "https://i.pinimg.com/236x/f1/08/a9/f108a9cc7f7462f34887a74b0f4851a4.jpg",
+        "engineType": "2.0L Inline-4 Turbo",
+        "price": "5,800,000 Ksh"
+      },
+      {
+        "brand": "Mercedes",
+        "model": "Mercedes-Benz E-Class",
+        "imagePath": "https://i.pinimg.com/236x/e3/76/17/e37617e83e040d4ce5e6663e49987d23.jpg",
+        "engineType": "3.0L Inline-6 Turbo",
+        "price": "8,700,000 Ksh"
+      },
+      {
+        "brand": "Mercedes",
+        "model": "Mercedes-Benz G-Class",
+        "imagePath": "https://i.pinimg.com/236x/7d/63/99/7d6399c7ff900dd7872e6a245209afc0.jpg",
+        "engineType": "4.0L V8 Biturbo",
+        "price": "18,500,000 Ksh"
+      },
+      {
+        "brand": "Mercedes",
+        "model": "Mercedes-Benz GLA",
+        "imagePath": "https://i.pinimg.com/236x/76/f8/ba/76f8ba014b2ae0cdba76c2c0c74b713d.jpg",
+        "engineType": "2.0L Inline-4 Turbo",
+        "price": "5,600,000 Ksh"
+      },
+      {
+        "brand": "Mercedes",
+        "model": "Mercedes-Benz GLC",
+        "imagePath": "https://i.pinimg.com/236x/a4/aa/b4/a4aab4f882aba910f6db859d575e7753.jpg",
+        "engineType": "2.0L Inline-4 Turbo",
+        "price": "6,800,000 Ksh"
+      },
+      {
+        "brand": "Mercedes",
+        "model": "Mercedes-Benz S-Class",
+        "imagePath": "https://i.pinimg.com/236x/85/9d/f0/859df04ed151bb927c899c3fed6522cc.jpg",
+        "engineType": "3.0L Inline-6 Turbo",
+        "price": "14,200,000 Ksh"
+      },
+        {
+          "brand": "Nissan",
+          "model": "Nissan 370Z",
+          "imagePath": "https://i.pinimg.com/236x/61/53/36/615336149772fbd12a930ea21c583073.jpg"
+        },
+        {
+            "brand": "Nissan",
+            "model": "Nissan 370Z",
+            "imagePath": "https://i.pinimg.com/236x/61/53/36/615336149772fbd12a930ea21c583073.jpg",
+            "engineType": "3.7L V6",
+            "price": "4,800,000 Ksh"
+          },
+          {
+            "brand": "Nissan",
+            "model": "Nissan Altima",
+            "imagePath": "https://i.pinimg.com/236x/a7/4f/bd/a74fbdfa9bafc180572c9cc831c9d3ea.jpg",
+            "engineType": "2.5L 4-Cylinder",
+            "price": "3,600,000 Ksh"
+          },
+          {
+            "brand": "Nissan",
+            "model": "Nissan Armada",
+            "imagePath": "https://i.pinimg.com/236x/d9/96/7f/d9967f8e55f41fd00ad26abf33aed047.jpg",
+            "engineType": "5.6L V8",
+            "price": "7,200,000 Ksh"
+          },
+          {
+            "brand": "Nissan",
+            "model": "Nissan GT-R",
+            "imagePath": "https://i.pinimg.com/236x/0c/ec/c9/0cecc981515df50d17f2a3bbec5623c5.jpg",
+            "engineType": "3.8L V6 Twin Turbo",
+            "price": "15,500,000 Ksh"
+          },
+          {
+            "brand": "Nissan",
+            "model": "Nissan Maxima",
+            "imagePath": "https://i.pinimg.com/236x/25/04/63/2504630ecae3f134e2b2fc380b494ef8.jpg",
+            "engineType": "3.5L V6",
+            "price": "5,200,000 Ksh"
+          },
+          {
+            "brand": "Nissan",
+            "model": "Nissan Murano",
+            "imagePath": "https://i.pinimg.com/236x/d9/2f/e0/d92fe022544905f5864091c622dd81e3.jpg",
+            "engineType": "3.5L V6",
+            "price": "5,800,000 Ksh"
+          },
+          {
+            "brand": "Nissan",
+            "model": "Nissan Pathfinder",
+            "imagePath": "https://i.pinimg.com/236x/98/e2/1c/98e21ca0d2a80e83f5f96e80ae43d58b.jpg",
+            "engineType": "3.5L V6",
+            "price": "6,400,000 Ksh"
+          },
+        
+          {
+            "brand": "Toyota",
+            "model": "Toyota 4Runner",
+            "imagePath": "https://i.pinimg.com/236x/be/d5/ae/bed5ae70d31e0492b80e0bad07ac9a8e.jpg",
+            "engineType": "4.0L V6",
+            "price": "4,000,000 Ksh"
+          },
+          {
+            "brand": "Toyota",
+            "model": "Toyota Crown",
+            "imagePath": "https://i.pinimg.com/236x/42/f1/21/42f12167e9e557b493656f0fc2084e3e.jpg",
+            "engineType": "3.5L V6",
+            "price": "4,500,000 Ksh"
+          },
+          {
+            "brand": "Toyota",
+            "model": "Toyota V8",
+            "imagePath": "https://i.pinimg.com/236x/c9/d5/ba/c9d5ba1bfa870e9878939d7cddda8f99.jpg",
+            "engineType": "4.6L V8",
+            "price": "6,000,000 Ksh"
+          },
+          {
+            "brand": "Toyota",
+            "model": "Toyota Mark X",
+            "imagePath": "https://i.pinimg.com/236x/15/6a/2b/156a2bfe55ef54744052eec0664376f9.jpg",
+            "engineType": "3.5L V6",
+            "price": "3,000,000 Ksh"
+          },
+          {
+            "brand": "Toyota",
+            "model": "Toyota Highlander",
+            "imagePath": "https://i.pinimg.com/236x/3e/03/d9/3e03d9a2f88e3dff99671e85734611e6.jpg",
+            "engineType": "3.5L V6",
+            "price": "3,460,000 Ksh"
+          },
+          {
+            "brand": "Toyota",
+            "model": "Toyota Land Cruiser",
+            "imagePath": "https://i.pinimg.com/236x/07/51/e2/0751e2f26bdb0a64e33bbb306d29d301.jpg",
+            "engineType": "5.7L V8",
+            "price": "8,566,500 Ksh"
+          },
+          {
+            "brand": "Toyota",
+            "model": "Toyota Harrier",
+            "imagePath": "https://i.pinimg.com/236x/64/7b/47/647b4705fbd99cfa964d27165675ca29.jpg",
+            "engineType": "2.0L 4-Cylinder Hybrid",
+            "price": "3,200,000 Ksh"
+          },
+          {
+            "brand": "Toyota",
+            "model": "Toyota RAV4",
+            "imagePath": "https://i.pinimg.com/236x/47/33/78/473378cb2e734ede3f65d3ec0e398ffa.jpg",
+            "engineType": "2.5L 4-Cylinder",
+            "price": "2,565,000 Ksh"
+          },
+          {
+            "brand": "Toyota",
+            "model": "Toyota Sienta",
+            "imagePath": "https://i.pinimg.com/236x/ce/aa/b8/ceaab82749194115593b78c717833d3b.jpg",
+            "engineType": "1.5L 4-Cylinder",
+            "price": "2,000,000 Ksh"
+          },
+          {
+            "brand": "Toyota",
+            "model": "Toyota Tacoma",
+            "imagePath": "https://i.pinimg.com/236x/d2/0a/ce/d20ace13e5a4cb510fc06d7730541e91.jpg",
+            "engineType": "2.7L 4-Cylinder",
+            "price": "2,640,000 Ksh"
+          }
+        ]
+      }
